@@ -1,0 +1,13 @@
+{
+  "name": "doc-components-ui",
+  "version": "1.0.0",
+  "description": "Solo Doc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cp": "./script.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
