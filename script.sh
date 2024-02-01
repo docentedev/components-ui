@@ -5,7 +5,7 @@ dest_dir="./docs"
 
 cd ..
 cd $src_dir_base
-# npm run build-storybook
+npm run build-storybook
 cd ..
 
 echo "CURRENT DIR: $(pwd) - cd $src_dir_base"
