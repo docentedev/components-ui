@@ -1,0 +1,33 @@
+import type { StoryObj } from '@storybook/react';
+import DatepickerRange2 from './index';
+declare const meta: {
+    title: string;
+    component: (props: {
+        start?: Date | undefined;
+        end?: Date | undefined;
+        onBlur?: ((start: Date, end: Date) => void) | undefined;
+        daysNames?: string[] | undefined;
+        startWeekDay?: number | undefined;
+        monthsNames?: string[] | undefined;
+        min?: Date | undefined;
+        max?: Date | undefined;
+        textDescription?: string | undefined;
+        textStarDateInstruction?: string | undefined;
+        textEndDateInstruction?: string | undefined;
+        placeholderStartDate?: string | undefined;
+        placeholderEndDate?: string | undefined;
+        textHeaderYear?: string | undefined;
+        label?: string | undefined;
+        onChange: (start?: Date | undefined, end?: Date | undefined) => void;
+        onCancel?: (() => void) | undefined;
+        textOnConfirm?: string | undefined;
+        textOnCancel?: string | undefined;
+        position?: "left" | "right" | undefined;
+    }) => JSX.Element;
+    tags: string[];
+    argTypes: {};
+    render: () => JSX.Element;
+};
+export default meta;
+type Story = StoryObj<typeof DatepickerRange2>;
+export declare const Default: Story;
