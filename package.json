@@ -4,8 +4,7 @@
   "description": "Solo Doc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cp": "./script.sh"
+    "build": "./script.sh"
   },
   "keywords": [],
   "author": "",
