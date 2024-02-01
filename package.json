@@ -4,7 +4,8 @@
   "description": "Solo Doc",
   "main": "index.js",
   "scripts": {
-    "build": "./script.sh"
+    "build": "./script.sh",
+    "build-min": "./script-min.sh"
   },
   "keywords": [],
   "author": "",
