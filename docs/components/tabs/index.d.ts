@@ -16,9 +16,10 @@ export type TabsProps = {
     tabs: Tab[];
     onChange?: (index: number) => void;
     variant?: 'primary' | 'secondary';
+    index?: number;
 };
 /**
  * The `Tabs` component creates a tabbed interface with scrollable tabs.
  */
-declare function Tabs({ tabs, onChange, variant, }: TabsProps): JSX.Element;
+declare function Tabs({ tabs, onChange, variant, index }: TabsProps): JSX.Element;
 export default Tabs;
