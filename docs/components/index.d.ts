@@ -1,6 +1,7 @@
 export { default as Accordion } from './accordion';
 export { default as AlertNoData } from './alert-no-data';
 export { default as Alert } from './alert';
+export { default as Avatar } from './avatar';
 export { default as Brand } from './brand';
 export { default as ButtonDropdown } from './button-dropdown';
 export { default as Button } from './button';
