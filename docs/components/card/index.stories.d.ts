@@ -10,7 +10,7 @@ declare const meta: {
             control: {
                 type: string;
             };
-            defaultValue: string;
+            value: string;
             description: string;
         };
         size: {
@@ -18,14 +18,14 @@ declare const meta: {
             control: {
                 type: string;
             };
-            defaultValue: string;
+            value: string;
             description: string;
         };
         children: {
             control: {
                 type: string;
             };
-            defaultValue: string;
+            value: string;
             description: string;
         };
     };

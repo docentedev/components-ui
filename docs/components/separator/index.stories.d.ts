@@ -10,14 +10,14 @@ declare const meta: {
             control: {
                 type: string;
             };
-            defaultValue: string;
+            value: string;
             description: string;
         };
         height: {
             control: {
                 type: string;
             };
-            defaultValue: number;
+            value: number;
             description: string;
         };
     };
