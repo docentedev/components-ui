@@ -1,3 +1,4 @@
+import React from 'react';
 import Icons from '../icon/icons';
 export type OptionsOption = {
     value: string;
@@ -14,5 +15,5 @@ type OptionsProps = {
     getFinded?: (option: OptionsOption) => boolean;
     variant?: 'menu';
 };
-declare const Options: (props: OptionsProps) => JSX.Element;
+declare const Options: React.ForwardRefExoticComponent<OptionsProps & React.RefAttributes<HTMLDivElement>>;
 export default Options;
