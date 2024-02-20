@@ -3,6 +3,7 @@ declare const brands: {
     Easy: string;
     Jumbo: string;
     Metro: string;
+    OperationCenter: string;
     Paris: string;
     Puntos: string;
     SantaIsabel: string;
