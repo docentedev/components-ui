@@ -2,7 +2,11 @@ declare const Illustrations: {
     Category: string;
     Confetti: string;
     Forbidden: string;
-    OrderVoid: string;
+    InternalServerError: string;
+    LostClouds: string;
+    MaintenanceError: string;
+    NotFound: string;
+    OpenBox: string;
     TimeCapsule: string;
     Truck: string;
 };

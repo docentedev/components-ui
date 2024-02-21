@@ -3,7 +3,7 @@ export type PointerEvents = 'auto' | 'none' | 'visiblePainted' | 'visibleFill' |
 export type IllustrationProps = {
     pointerEvents?: PointerEvents;
     size?: number;
-    name?: keyof typeof Illustrations;
+    name?: keyof typeof Illustrations | 'OrderVoid';
 };
 declare const Illustration: ({ size, pointerEvents, name, }: IllustrationProps) => JSX.Element;
 export default Illustration;

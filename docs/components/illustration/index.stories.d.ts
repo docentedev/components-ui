@@ -3,7 +3,6 @@ import Illustration from '.';
 declare const meta: {
     title: string;
     component: ({ size, pointerEvents, name, }: import(".").IllustrationProps) => JSX.Element;
-    tags: string[];
     argTypes: {
         pointerEvents: {
             control: {
@@ -22,7 +21,7 @@ declare const meta: {
             control: {
                 type: string;
             };
-            options: ("Category" | "Confetti" | "Forbidden" | "OrderVoid" | "TimeCapsule" | "Truck")[];
+            options: ("Category" | "Confetti" | "Forbidden" | "InternalServerError" | "LostClouds" | "MaintenanceError" | "NotFound" | "OpenBox" | "TimeCapsule" | "Truck")[];
         };
     };
 };

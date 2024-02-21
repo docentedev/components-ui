@@ -1,5 +1,6 @@
 import React, { FocusEvent, ChangeEvent } from 'react';
 import { IconProps } from '../icon';
+import Icons from '../icon/icons';
 export type InputElement = HTMLInputElement | HTMLTextAreaElement;
 export type InputProps = {
     onFocus?: (e: FocusEvent<InputElement>) => void;
@@ -13,8 +14,8 @@ export type InputProps = {
     htmlFor?: string;
     id?: string;
     name?: string;
-    iconRight?: React.ReactElement<IconProps>;
-    iconRightError?: React.ReactElement<IconProps>;
+    iconRight?: keyof typeof Icons | React.ReactElement<IconProps>;
+    iconRightError?: keyof typeof Icons | React.ReactElement<IconProps>;
     placeholder?: string;
     disabled?: boolean;
     maxLength?: number;

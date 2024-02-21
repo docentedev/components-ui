@@ -1,13 +1,14 @@
 import React from 'react';
 import { IconProps } from '../icon/';
+import Icons from '../icon/icons';
 export type ButtonProps = {
     onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
     children?: React.ReactNode | React.ReactNode[];
     size?: 's' | 'xs' | 'm' | 'l';
     disabled?: boolean;
-    icon?: React.ReactElement<IconProps>;
-    iconLeft?: React.ReactElement<IconProps>;
-    iconRight?: React.ReactElement<IconProps>;
+    icon?: keyof typeof Icons | React.ReactElement<IconProps>;
+    iconLeft?: keyof typeof Icons | React.ReactElement<IconProps>;
+    iconRight?: keyof typeof Icons | React.ReactElement<IconProps>;
     type?: 'submit' | 'button';
     variant?: 'primary' | 'secondary' | 'ternary' | 'dashed' | 'toggle' | 'light';
     block?: boolean;

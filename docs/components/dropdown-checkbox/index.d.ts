@@ -3,7 +3,7 @@ export type DropdownCheckboxOption = {
     value: any;
     label: string;
 };
-type DropdownCheckboxProps = {
+export type DropdownCheckboxProps = {
     options: DropdownCheckboxOption[];
     onChange: (option: DropdownCheckboxOption[], name?: string) => void;
     onClose?: () => void;
