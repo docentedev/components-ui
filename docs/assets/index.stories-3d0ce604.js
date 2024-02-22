@@ -1,0 +1,11 @@
+import{a}from"./jsx-runtime-fd534075.js";import{r as l}from"./index-0cbcd92a.js";import{I as s}from"./index-604061b6.js";import{a as o}from"./index-03eabb6a.js";import"./_commonjsHelpers-de833af9.js";/* empty css              */import"./index-5407bb2c.js";import"./index-b2c8f66c.js";import"./index-e60269c1.js";import"./index-9eea9a52.js";import"./index-e0a9a0ac.js";import"./index-94b86141.js";import"./index-6574e2dc.js";import"./index-65ca6685.js";import"./index-4cd4725f.js";import"./index-162d25a7.js";import"./index-3b419322.js";import"./index-af5faa0b.js";import"./index-36b10e2f.js";import"./index-b6ef4225.js";import"./index-9e68d7ed.js";import"./index-d70482d4.js";import"./index-a1e9148f.js";import"./index-649ebd0f.js";import"./index-02210d9f.js";import"./index-6bf6aae2.js";import"./index-7ea187ef.js";import"./index-63de68db.js";const J={title:"Input",component:s,tags:["autodocs"],parameters:{layout:"centered"},argTypes:{label:{control:"text",description:"Contenido del botón"},hint:{control:"text",description:"Contenido del botón"},variant:{control:"select",options:[void 0,"success","error","warning"],description:"Variante del input"},size:{control:"select",options:[void 0,"s","m"],description:"Tamaño del input"},type:{control:"select",options:["text","textarea","search"],description:"Tipo del input"},iconRight:{control:"select",options:[void 0,...Object.keys(o)],description:"Icono a la derecha del input"},iconRightError:{control:"select",options:[void 0,...Object.keys(o)],description:"Icono a la derecha del input en caso de error"}},render:e=>a(d,{...e})},d=e=>{const[p,c]=l.useState("");return a(s,{...e,onChange:m=>{c(m.target.value)},value:p})},t={args:{maxLength:10,label:"This is the label",hint:"This is the hint.",type:"text",variant:"default",size:"m",iconRight:"Search"}};var r,i,n;t.parameters={...t.parameters,docs:{...(r=t.parameters)==null?void 0:r.docs,source:{originalSource:`{
+  args: {
+    maxLength: 10,
+    label: 'This is the label',
+    hint: 'This is the hint.',
+    type: 'text',
+    variant: 'default',
+    size: 'm',
+    iconRight: 'Search'
+  }
+}`,...(n=(i=t.parameters)==null?void 0:i.docs)==null?void 0:n.source}}};const K=["Default"];export{t as Default,K as __namedExportsOrder,J as default};
