@@ -61,6 +61,7 @@ declare const Icons: {
     PrimeCustomer: () => JSX.Element;
     QuestionMarkCircle: () => JSX.Element;
     Reload: () => JSX.Element;
+    RotateRight: () => JSX.Element;
     Save: () => JSX.Element;
     Search: () => JSX.Element;
     Settings: () => JSX.Element;

@@ -4,6 +4,7 @@ export type CardProps = {
     children: ReactNode | ReactNode[];
     variant?: 'border' | 'border-l' | '';
     block?: boolean;
+    width?: string;
 };
-declare const Card: ({ children, size, variant, block }: CardProps) => JSX.Element;
+declare const Card: ({ children, size, variant, block, width }: CardProps) => JSX.Element;
 export default Card;
