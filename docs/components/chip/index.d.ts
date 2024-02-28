@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import { IconProps } from '../icon';
 export type TypeVariant = 'default' | 'outline' | 'primary' | 'secondary' | 'information' | 'success' | 'warning' | 'error' | 'disabled' | 'alternative1' | 'alternative2' | 'alternative3' | 'information-light';
-export type TypeSize = 's' | 'm';
+export type TypeSize = 'xs' | 's' | 'm';
 export interface PropTypes extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
     size?: TypeSize;
     text?: string | ReactNode | ReactNode[];

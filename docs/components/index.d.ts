@@ -20,6 +20,7 @@ export { default as DragAndDrop } from './drag-and-drop';
 export { default as Drawer } from './drawer';
 export { default as DropdownCarret } from './dropdown-carret';
 export { default as DropdownCheckbox } from './dropdown-checkbox';
+export { default as DropdownCheckboxChips } from './dropdown-checkbox-chips';
 export { default as Dropdown } from './dropdown';
 export { default as DropdownAsync } from './dropdown-async';
 export { default as Hint } from './hint';

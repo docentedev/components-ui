@@ -106,6 +106,11 @@ export declare const colorVariants: {
     };
 };
 export declare const sizeVariants: {
+    xs: {
+        padding: string;
+        paddingCloseButtonAlone: string;
+        minWidth: string;
+    };
     s: {
         padding: string;
         paddingCloseButtonAlone: string;
