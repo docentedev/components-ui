@@ -16,8 +16,8 @@ export type DropdownCheckboxChipsProps = {
     name?: string;
     type?: 'button' | 'submit' | 'reset';
     maxVisibleChips?: number;
-    defaultInitialText?: string;
+    placeholder?: string;
     plusSign?: string;
 };
-declare const DropdownCheckboxChips: ({ options, onChange, onClose, textSelectAll, defaultInitialText, label, variant, hint, disabled, width, name, type, plusSign, maxVisibleChips, }: DropdownCheckboxChipsProps) => JSX.Element;
+declare const DropdownCheckboxChips: ({ options, onChange, onClose, textSelectAll, placeholder, label, variant, hint, disabled, width, name, type, plusSign, maxVisibleChips, }: DropdownCheckboxChipsProps) => JSX.Element;
 export default DropdownCheckboxChips;
