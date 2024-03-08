@@ -2,7 +2,7 @@ import type { StoryObj } from '@storybook/react';
 import Card from '.';
 declare const meta: {
     title: string;
-    component: ({ children, size, variant, block, width }: import(".").CardProps) => JSX.Element;
+    component: ({ children, size, variant, block, width, padding }: import(".").CardProps) => JSX.Element;
     tags: string[];
     argTypes: {
         variant: {

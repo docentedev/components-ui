@@ -62,3 +62,4 @@ export { default as useWave } from '../hooks/useWave';
 export { default as useDebounceFn } from '../hooks/useDebounceFn';
 export { default as useDebounce } from '../hooks/useDebounce';
 export { default as useClickOutside } from '../hooks/useClickOutside.js';
+export { default as tokens } from './tokens';

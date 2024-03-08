@@ -10,7 +10,7 @@ export type PaginationProps = {
     pageSize: number;
     totalElements: number;
     totalPages: number;
-    variant?: 'alternative' | 'minimum';
+    variant?: 'alternative' | 'minimum' | 'light';
     resumeText?: string;
     pageText?: string;
 };

@@ -5,6 +5,7 @@ export type CardProps = {
     variant?: 'border' | 'border-l' | '';
     block?: boolean;
     width?: string;
+    padding?: '2xs' | 'xs' | 's' | 'm' | 'l' | 'xl' | '2xl';
 };
-declare const Card: ({ children, size, variant, block, width }: CardProps) => JSX.Element;
+declare const Card: ({ children, size, variant, block, width, padding }: CardProps) => JSX.Element;
 export default Card;
