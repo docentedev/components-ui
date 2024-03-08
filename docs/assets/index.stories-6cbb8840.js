@@ -1,0 +1,8 @@
+import{a as e}from"./index-dc4f2b77.js";import"./jsx-runtime-fd534075.js";import"./index-0cbcd92a.js";import"./_commonjsHelpers-de833af9.js";/* empty css              */import"./index-f47ec35d.js";import"./index-a2847f9e.js";import"./index-14804970.js";import"./index-ca44b1cf.js";import"./index-4fc2b7e7.js";import"./index-74add701.js";import"./index-6af905a4.js";import"./index-76a81699.js";import"./index-14b9dad8.js";import"./index-af5faa0b.js";import"./index-157d83f6.js";import"./index-65ca6685.js";import"./index-4cd4725f.js";import"./index-c5d0c57d.js";import"./index-3b419322.js";import"./index-36b10e2f.js";import"./index-b6ef4225.js";import"./index-d70482d4.js";import"./index-20539f11.js";import"./index-08704a47.js";import"./index-7337abe7.js";import"./index-7ea187ef.js";import"./index-63de68db.js";const B={title:"Alert",component:e,tags:["autodocs"],args:{variant:"info",title:"This is the title",icon:!0,children:"This is the content of the alert."},argTypes:{variant:{options:["info","success","error","warning"],control:{type:"select"}},theme:{options:["default","light"],control:{type:"select"}}}},t={args:{variant:"info",title:"This is the title",children:"This is the content of the alert.",icon:!0}};var r,i,o;t.parameters={...t.parameters,docs:{...(r=t.parameters)==null?void 0:r.docs,source:{originalSource:`{
+  args: {
+    variant: 'info',
+    title: 'This is the title',
+    children: 'This is the content of the alert.',
+    icon: true
+  }
+}`,...(o=(i=t.parameters)==null?void 0:i.docs)==null?void 0:o.source}}};const C=["Default"];export{t as Default,C as __namedExportsOrder,B as default};
