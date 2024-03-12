@@ -249,5 +249,47 @@ declare const tokens: {
             cssVar: string;
         };
     };
+    radius: {
+        none: {
+            tag: string;
+            value: string;
+            cssVar: string;
+        };
+        xs: {
+            tag: string;
+            value: string;
+            cssVar: string;
+        };
+        s: {
+            tag: string;
+            value: string;
+            cssVar: string;
+        };
+        m: {
+            tag: string;
+            value: string;
+            cssVar: string;
+        };
+        l: {
+            tag: string;
+            value: string;
+            cssVar: string;
+        };
+        xl: {
+            tag: string;
+            value: string;
+            cssVar: string;
+        };
+        "2xl": {
+            tag: string;
+            value: string;
+            cssVar: string;
+        };
+        full: {
+            tag: string;
+            value: string;
+            cssVar: string;
+        };
+    };
 };
 export default tokens;

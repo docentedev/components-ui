@@ -10,6 +10,7 @@ export interface PropTypes extends React.DetailedHTMLProps<React.HTMLAttributes<
     widthClose?: boolean;
     icon?: React.ReactElement<IconProps>;
     onClickClose?: () => void;
+    [key: string]: string | boolean | ReactNode | ReactNode[];
 }
 declare const Chip: (props: PropTypes) => JSX.Element;
 export default Chip;

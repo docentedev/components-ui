@@ -16,3 +16,12 @@ export declare const spacing: {
         cssVar: string;
     }[];
 }[];
+export declare const radius: {
+    title: string;
+    data: {
+        title: string;
+        tag: string;
+        value: string;
+        cssVar: string;
+    }[];
+}[];

@@ -32,7 +32,7 @@ export type TableProps<T = any> = {
     onClickRow?: (row: T, key: string, value: any) => void;
     onSort?: (sort: 'asc' | 'desc', column: ColumnStrictProps<T>) => void;
     maxHeight?: string;
-    variant?: 'default' | 'secondary' | 'striped' | 'bordered' | 'light';
+    variant?: 'default' | 'secondary' | 'striped' | 'bordered' | 'light' | 'narrow';
     className?: string;
     getClassNameRow?: (row: T, index: number) => string;
     withHeader?: boolean;
