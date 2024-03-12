@@ -1,0 +1,11 @@
+import{a as r}from"./jsx-runtime-fd534075.js";import{d as a}from"./index-2681c571.js";import{I as p}from"./index-12e24dad.js";import"./index-0cbcd92a.js";import"./_commonjsHelpers-de833af9.js";import"./index.utils-04f34053.js";import"./index-ef379c3a.js";import"./index-a2847f9e.js";import"./index-ca44b1cf.js";import"./index-9e68d7ed.js";import"./index-889d04a6.js";import"./index-d0b2ccd2.js";import"./index-de8952c4.js";import"./index-94b86141.js";import"./index-af5faa0b.js";import"./index-95353159.js";import"./index-65ca6685.js";import"./index-4cd4725f.js";import"./index-541d37a9.js";import"./index-3b419322.js";import"./index-36b10e2f.js";import"./index-b6ef4225.js";import"./index-d70482d4.js";import"./index-d88dedce.js";import"./index-0051ad11.js";import"./index-6bf6aae2.js";import"./index-181649f6.js";import"./index-63de68db.js";const q={title:"Chip",parameters:{layout:"centered"},component:a,tags:["autodocs"],argTypes:{size:{options:["s","m"],control:{type:"select"},value:"s",description:"Tamaño"},variant:{options:["primary","success","warning","error","secondary","outline","information","information-light","alternative1","alternative2","alternative3","disabled"],control:{type:"select"},value:"primary",description:"Variantes"},icon:{control:{type:null},value:"primary",description:"Icono del chip"},text:{control:{type:"text"},value:"Chip",description:"Texto del chip"},widthDot:{control:{type:"boolean"},value:!0,description:"Muestra el punto"},onClickClose:{control:{type:null},value:()=>{},description:"Función al cerrar el chip"},widthClose:{control:{type:"boolean"},value:!1,description:"Muestra el botón de cerrar"}},render:o=>r(s,{...o})},s=o=>r(a,{...o}),t={args:{size:"s",variant:"primary",icon:r(p,{size:20,name:"Box"}),text:"Chip",widthDot:!0,widthClose:!1,onClickClose:()=>{}}};var e,i,n;t.parameters={...t.parameters,docs:{...(e=t.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  args: {
+    size: 's',
+    variant: 'primary',
+    icon: <Icon size={20} name="Box" />,
+    text: 'Chip',
+    widthDot: true,
+    widthClose: false,
+    onClickClose: () => undefined
+  }
+}`,...(n=(i=t.parameters)==null?void 0:i.docs)==null?void 0:n.source}}};const A=["Default"];export{t as Default,A as __namedExportsOrder,q as default};
