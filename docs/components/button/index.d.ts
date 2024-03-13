@@ -15,7 +15,6 @@ export type ButtonProps = {
     loading?: boolean;
     onMouseEnter?: (e: React.MouseEvent<HTMLButtonElement>) => void;
     onMouseLeave?: (e: React.MouseEvent<HTMLButtonElement>) => void;
-    [key: string]: unknown;
 };
-declare const Button: (props: ButtonProps) => JSX.Element;
+declare const Button: ({ onClick, children, size, disabled, icon, iconLeft, iconRight, type, variant, block, loading, onMouseEnter, onMouseLeave, }: ButtonProps) => JSX.Element;
 export default Button;
