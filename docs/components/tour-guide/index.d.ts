@@ -11,6 +11,7 @@ export type TourGuideProps = {
     step: number;
     position?: 'top' | 'left' | 'right' | 'bottom' | 'bottom-left' | 'bottom-right';
     withClose?: boolean;
+    width?: string;
 };
 declare const TourGuide: React.FC<TourGuideProps>;
 export default TourGuide;
