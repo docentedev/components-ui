@@ -53,6 +53,7 @@ export { default as Tabs } from './tabs';
 export { default as Text } from './text';
 export { default as Text2 } from './text2';
 export { default as Tooltip } from './tooltip';
+export { default as TourGuide } from './tour-guide';
 export { default as Timepicker } from './timepicker';
 export { default as UploadFile } from './upload-file';
 export { default as UploadFiles } from './upload-files';
