@@ -8,6 +8,7 @@ export type RowProps = {
     children: React.ReactNode;
     container?: boolean;
     gap?: MarginSize;
+    rowGap?: MarginSize;
 };
 export declare const Row: (props: RowProps) => JSX.Element;
 export default Row;

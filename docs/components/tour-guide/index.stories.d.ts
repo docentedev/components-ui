@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import TourGuide from './index';
+import { TourGuide } from '..';
 declare const meta: Meta<typeof TourGuide>;
 type Story = StoryObj<typeof TourGuide>;
 export default meta;
