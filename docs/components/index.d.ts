@@ -66,4 +66,4 @@ export { default as useNotification } from './notification/useNotification';
 export { default as useTourGuide } from '../components/tour-guide/context/useTourGuide';
 export { default as useWave } from '../hooks/useWave';
 export { default as TourGuideProvider } from '../components/tour-guide/context/TourGuideProvider.js';
-export { default as tokens } from './tokens';
+export { default as tokens } from '../tokens/tokens';
