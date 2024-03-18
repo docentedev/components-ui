@@ -27,6 +27,8 @@ declare const Icons: {
     Copy: () => JSX.Element;
     Darkstore: () => JSX.Element;
     Document: () => JSX.Element;
+    DocumentRequired: () => JSX.Element;
+    DocumentSearch: () => JSX.Element;
     Dot: () => JSX.Element;
     Download: () => JSX.Element;
     Draggable: () => JSX.Element;
