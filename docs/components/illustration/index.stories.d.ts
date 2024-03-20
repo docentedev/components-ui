@@ -21,7 +21,7 @@ declare const meta: {
             control: {
                 type: string;
             };
-            options: ("Category" | "Confetti" | "Forbidden" | "InternalServerError" | "LostClouds" | "MaintenanceError" | "NotFound" | "OpenBox" | "TimeCapsule" | "Truck")[];
+            options: ("Category" | "Confetti" | "DropShipping" | "Easy" | "ExperienciaYservicios" | "Flex" | "Forbidden" | "Fullfilment" | "FulfillmentByParis" | "FulfillmentMarketplace" | "InternalServerError" | "LostClouds" | "MaintenanceError" | "NotFound" | "OpenBox" | "TimeCapsule" | "Truck")[];
         };
     };
 };
