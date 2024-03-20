@@ -3,6 +3,7 @@ export type Option = {
     label: string;
     value: string;
     icon?: keyof typeof Icons;
+    disabled?: boolean;
 };
 export type MenuProps = {
     options: Option[];

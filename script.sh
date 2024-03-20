@@ -5,6 +5,15 @@ dest_dir="./docs"
 
 cd ..
 cd $src_dir_base
+
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+if [ "$current_branch" != "master" ]; then
+  echo "Error: No estás en la rama master. Por favor, cambia a la rama master antes de ejecutar este script."
+  exit 1
+fi
+git reset --hard HEAD
+git pull origin master --no-rebase 
+
 npm run build-storybook
 cd ..
 

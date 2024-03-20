@@ -1,5 +1,5 @@
-import Icons from "./icons";
-import { PointerEvents } from "./index.type";
+import Icons from './icons';
+import { PointerEvents } from './index.type';
 export type IconProps = {
     pointerEvents?: PointerEvents;
     color?: string;
