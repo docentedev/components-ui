@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 export type TextProps = {
-    weight?: 400 | 600 | 700 | null | number;
+    weight?: 400 | 600 | 700 | null | number | string;
     tag?: keyof JSX.IntrinsicElements;
     children: ReactNode;
     color?: 'darken' | 'dark' | 'light' | null | string;
