@@ -73,6 +73,7 @@ declare const Icons: {
     Spinner: () => JSX.Element;
     SuccessCircle: () => JSX.Element;
     Switch: () => JSX.Element;
+    TourGuide: () => JSX.Element;
     Trash: () => JSX.Element;
     Upload: () => JSX.Element;
     UploadAlt: () => JSX.Element;
