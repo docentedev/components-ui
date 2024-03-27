@@ -1,5 +1,0 @@
-import{a as r,F as c}from"./jsx-runtime-fd534075.js";import{T as n}from"./index-f9abc9a4.js";import{a as i}from"./stories.utils-47d76ce5.js";const d=["small","small-bold","tag","regular","body2","silent","","title-section","regular-bold","description","bold","accordion","modal","subtitle2","subtitle","medium-bold"],m={title:"DEPRECADOS / Text",component:n,argTypes:{tag:{options:["h1","h2","h3","h4","h5","h6","p","span"],control:{type:"select"}},color:{control:{type:"color"}}},render:e=>r(p,{...e})},p=e=>r(c,{children:d.map(o=>r(n,{variant:o,...e,children:o||"default"}))}),t={args:{children:i}};var a,s,l;t.parameters={...t.parameters,docs:{...(a=t.parameters)==null?void 0:a.docs,source:{originalSource:`{
-  args: {
-    children: testShortText1
-  }
-}`,...(l=(s=t.parameters)==null?void 0:s.docs)==null?void 0:l.source}}};const u=["Default"],T=Object.freeze(Object.defineProperty({__proto__:null,Default:t,__namedExportsOrder:u,default:m},Symbol.toStringTag,{value:"Module"}));export{t as D,T};

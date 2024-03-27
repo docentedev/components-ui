@@ -67,7 +67,7 @@ export { default as useTourGuide } from '../components/tour-guide/context/useTou
 export { default as useWave } from '../hooks/useWave';
 export { default as TourGuideProvider } from '../components/tour-guide/context/TourGuideProvider.js';
 export { default as tokens } from '../tokens/tokens';
-declare const utils: {
+export declare const utils: {
     storageManager: <T = unknown>(storageKey: string) => (dataName: string, initialModel?: T | undefined) => {
         get: () => {
             model: T;
@@ -83,4 +83,3 @@ declare const utils: {
         isLeft: boolean;
     };
 };
-export default utils;
