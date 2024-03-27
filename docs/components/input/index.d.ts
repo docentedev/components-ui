@@ -21,6 +21,7 @@ export type InputProps = {
     maxLength?: number;
     size?: 's' | 'm';
     iconRightOnClick?: () => void;
+    prefix?: string;
 };
-declare const Input: ({ onFocus, onChange, onBlur, label, value, type, hint, variant, htmlFor, id, name, iconRight, iconRightError, placeholder, disabled, maxLength, size, iconRightOnClick, }: InputProps) => JSX.Element;
+declare const Input: ({ onFocus, onChange, onBlur, label, value, type, hint, variant, htmlFor, id, name, iconRight, iconRightError, placeholder, disabled, maxLength, size, prefix, iconRightOnClick, }: InputProps) => JSX.Element;
 export default Input;
