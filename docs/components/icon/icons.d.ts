@@ -1,6 +1,7 @@
 declare const Icons: {
     Activity: () => JSX.Element;
     AlertCircle: () => JSX.Element;
+    AlertCircleOutline: () => JSX.Element;
     AlertTriangle: () => JSX.Element;
     AllDone: () => JSX.Element;
     At: () => JSX.Element;

@@ -1,5 +1,5 @@
 import type { StoryObj } from '@storybook/react';
-import Card from '.';
+import { Card } from '../';
 declare const meta: {
     title: string;
     component: ({ children, size, variant, block, width, padding }: import(".").CardProps) => JSX.Element;
@@ -25,6 +25,14 @@ declare const meta: {
             control: {
                 type: string;
             };
+            value: string;
+            description: string;
+        };
+        padding: {
+            control: {
+                type: string;
+            };
+            options: string[];
             value: string;
             description: string;
         };

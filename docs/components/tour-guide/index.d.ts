@@ -1,3 +1,4 @@
+import React from 'react';
 export type TourGuideProps = {
     render: (props: {
         chip: JSX.Element;

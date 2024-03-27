@@ -1,6 +1,7 @@
+import { tokens } from '..';
 export type SeparatorProps = {
     variant?: 'line' | 'space';
-    height?: number | '2xs' | 'xs' | 's' | 'm' | 'l' | 'xl' | '2xl';
+    height?: number | keyof typeof tokens.spacing;
 };
 declare const Separator: ({ variant, height }: SeparatorProps) => JSX.Element;
 export default Separator;

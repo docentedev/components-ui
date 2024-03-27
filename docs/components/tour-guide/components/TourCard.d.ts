@@ -7,7 +7,7 @@ interface CardProps {
         onNext: () => void;
         onClose: () => void;
     }) => JSX.Element;
-    position: 'top' | 'left' | 'right' | 'bottom' | 'bottom-left' | 'bottom-right';
+    position: 'top' | 'left' | 'right' | 'bottom' | 'bottom-left' | 'bottom-right' | 'auto';
     withClose?: boolean;
     width?: string;
     variant?: 'tooltip' | 'modal';

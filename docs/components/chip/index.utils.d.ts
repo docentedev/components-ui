@@ -40,6 +40,14 @@ export declare const colorVariants: {
         color: string;
         colorIcon: string;
     };
+    'secondary-outline': {
+        colorX: string;
+        background: string;
+        dotColor: string;
+        border: string;
+        color: string;
+        colorIcon: string;
+    };
     outline: {
         colorX: string;
         background: string;

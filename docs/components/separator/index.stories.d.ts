@@ -1,5 +1,5 @@
 import type { StoryObj } from "@storybook/react";
-import Separator from ".";
+import { Separator } from "../index";
 declare const meta: {
     title: string;
     component: ({ variant, height }: import(".").SeparatorProps) => JSX.Element;
@@ -17,7 +17,7 @@ declare const meta: {
             control: {
                 type: string;
             };
-            value: number;
+            options: string[];
             description: string;
         };
     };

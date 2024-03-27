@@ -1,8 +1,8 @@
 import React, { ReactNode } from 'react';
 import { IconProps } from '../icon';
-export type TypeVariant = 'default' | 'outline' | 'primary' | 'secondary' | 'information' | 'success' | 'warning' | 'error' | 'disabled' | 'alternative1' | 'alternative2' | 'alternative3' | 'information-light';
+export type TypeVariant = 'default' | 'outline' | 'secondary-outline' | 'primary' | 'secondary' | 'information' | 'success' | 'warning' | 'error' | 'disabled' | 'alternative1' | 'alternative2' | 'alternative3' | 'information-light';
 export type TypeSize = 'xs' | 's' | 'm';
-export interface PropTypes extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+export type ChipProps = {
     size?: TypeSize;
     text?: string | ReactNode | ReactNode[];
     variant?: TypeVariant;
@@ -10,7 +10,8 @@ export interface PropTypes extends React.DetailedHTMLProps<React.HTMLAttributes<
     widthClose?: boolean;
     icon?: React.ReactElement<IconProps>;
     onClickClose?: () => void;
+    onClick?: (event: React.MouseEvent<HTMLElement>) => void;
     [key: string]: string | boolean | ReactNode | ReactNode[];
-}
-declare const Chip: (props: PropTypes) => JSX.Element;
+};
+declare const Chip: (props: ChipProps) => JSX.Element;
 export default Chip;
