@@ -2,7 +2,7 @@ import React from 'react';
 export type ColumnProps<T = any> = {
     key?: string;
     label?: string;
-    renderRow?: (row: T, index: number) => React.ReactElement | string;
+    renderRow?: (row: T, index: number, onCollapse: (open?: boolean) => void) => React.ReactElement | string;
     renderHead?: (column: ColumnStrictProps<T>, index: number) => React.ReactElement;
     renderVoid?: (row: T, index: number) => React.ReactElement;
     sort?: {
@@ -15,7 +15,7 @@ export type ColumnStrictProps<T = any> = {
     key: string;
     label: string;
     internalKey: string;
-    renderRow?: (row: T, index: number) => React.ReactElement | string;
+    renderRow?: (row: T, index: number, onCollapse: (open?: boolean) => void) => React.ReactElement | string;
     renderHead?: (column: ColumnStrictProps<T>, index: number) => React.ReactElement;
     renderVoid?: (row: T, index: number) => React.ReactElement;
     isSort: boolean;
@@ -37,10 +37,11 @@ export type TableProps<T = any> = {
     getClassNameRow?: (row: T, index: number) => string;
     withHeader?: boolean;
     onDragEnd?: (data: T[]) => void;
+    renderCollapse?: (row: T, index: number) => React.ReactElement;
 };
 export type OrderState<T> = {
     column: ColumnStrictProps<T>;
     sort: 'asc' | 'desc';
 };
-declare function Table<T = any>({ data, loading, columns, onClickRow, onSort, maxHeight, variant, className, getClassNameRow, withHeader, onDragEnd, }: TableProps<T>): JSX.Element;
+declare function Table<T = any>({ data, loading, columns, onClickRow, onSort, maxHeight, variant, className, getClassNameRow, withHeader, onDragEnd, renderCollapse, }: TableProps<T>): JSX.Element;
 export default Table;

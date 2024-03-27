@@ -2,7 +2,7 @@ import React from 'react';
 export type ColumnProps = {
     key?: string;
     label?: string;
-    renderRow?: (row: any, index: number) => any;
+    renderRow?: (row: any, index: number, onCollapse: () => void) => any;
     renderVoid?: (row: any, index: number) => any;
     sort?: {
         ascText: string;
@@ -14,7 +14,7 @@ export type ColumnStrictProps = {
     key: string;
     label: string;
     internalKey: string;
-    renderRow?: (row: any, index: number) => any;
+    renderRow?: (row: any, index: number, onCollapse: () => void) => any;
     renderVoid?: (row: any, index: number) => any;
     isSort: boolean;
     sort?: {
@@ -39,12 +39,12 @@ export type TableProps = {
  *
  * @example ```tsx
  * <TableDD
-            columns={[{ key: 'user.name' }]}
-            data={[{ user: { name: 'Claudio' } }]}
-            loading={false}
-            onClickRow={console.log}
-        />
-        ```
+      columns={[{ key: 'user.name' }]}
+      data={[{ user: { name: 'Claudio' } }]}
+      loading={false}
+      onClickRow={console.log}
+    />
+    ```
  */
 declare const TableDraggable: ({ data, loading, columns, onClickRow, onSort, maxHeight, variant, className, getClassNameRow, onChange }: TableProps) => JSX.Element;
 export default TableDraggable;
