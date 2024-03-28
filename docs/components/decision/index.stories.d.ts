@@ -2,7 +2,7 @@ import type { StoryObj } from '@storybook/react';
 import Decision from './index';
 declare const meta: {
     title: string;
-    component: ({ variant, onConfirm, onCancel, loading, disabled, textConfirm, textCancel, }: import("./index").DecisionProps) => JSX.Element;
+    component: ({ variant, onConfirm, onCancel, loading, disabled, textConfirm, textCancel, iconLeftConfirm, iconRightConfirm, iconLeftCancel, iconRightCancel, }: import("./index").DecisionProps) => JSX.Element;
     tags: string[];
     argTypes: {
         variant: {
@@ -24,6 +24,26 @@ declare const meta: {
         };
         textCancel: {
             control: string;
+            description: string;
+        };
+        iconLeftCancel: {
+            control: string;
+            options: (string | undefined)[];
+            description: string;
+        };
+        iconRightCancel: {
+            control: string;
+            options: (string | undefined)[];
+            description: string;
+        };
+        iconLeftConfirm: {
+            control: string;
+            options: (string | undefined)[];
+            description: string;
+        };
+        iconRightConfirm: {
+            control: string;
+            options: (string | undefined)[];
             description: string;
         };
     };
