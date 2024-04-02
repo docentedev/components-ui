@@ -14,6 +14,7 @@ export type TourGuideProps = {
     withClose?: boolean;
     width?: string;
     variant?: 'tooltip' | 'modal';
+    children?: JSX.Element;
 };
 declare const TourGuide: React.FC<TourGuideProps>;
 export default TourGuide;
