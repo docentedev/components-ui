@@ -1,5 +1,5 @@
-import type { StoryObj } from "@storybook/react";
-import { Separator } from "../index";
+import type { StoryObj } from '@storybook/react';
+import { Separator } from '../index';
 declare const meta: {
     title: string;
     component: ({ variant, height }: import(".").SeparatorProps) => JSX.Element;

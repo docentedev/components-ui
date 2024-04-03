@@ -1,6 +1,7 @@
+import { TokenType } from "../../../tokens/tokens.type";
 interface TextsTableProps {
     title: string;
-    data: any[];
+    data: TokenType[];
 }
 declare const TextsTable: ({ title, data }: TextsTableProps) => JSX.Element;
 export default TextsTable;

@@ -7,4 +7,4 @@ export declare const sizeBase: {
 export declare const weightBase: {
     [key: string]: string;
 };
-export declare const textTokensGenerateds: Record<string, import("./tokens.type").tokenType>;
+export declare const textTokensGenerateds: Record<string, import("./tokens.type").TokenType>;

@@ -1,15 +1,10 @@
-export type Option = {
-    value: string;
-    label: string;
-    persistent?: boolean;
-    disabled?: boolean;
-};
+import { OptionsOption } from '../options';
 export type DropdownProps = {
     label: string;
     value: string;
     onChange: (key: string, name?: string) => void;
     onClose?: () => void;
-    options: Option[];
+    options: OptionsOption[];
     direction?: 'top' | 'bottom';
     variant?: 'default' | 'success' | 'error' | 'warning';
     hint?: string;

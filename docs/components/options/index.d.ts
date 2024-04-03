@@ -7,7 +7,7 @@ export type OptionsOption = {
     label: string;
     persistent?: boolean;
     disabled?: boolean;
-    icon?: keyof typeof Icons;
+    icon?: keyof typeof Icons | JSX.Element | null;
     chip?: React.ReactElement<ChipProps> | null;
 };
 type OptionsProps = {

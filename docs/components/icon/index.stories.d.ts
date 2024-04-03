@@ -1,5 +1,5 @@
-import type { StoryObj } from "@storybook/react";
-import Icon, { IconProps } from ".";
+import type { StoryObj } from '@storybook/react';
+import Icon, { IconProps } from '.';
 declare const meta: {
     title: string;
     component: ({ color, size, pointerEvents, name, animation, variant, }: IconProps) => JSX.Element;

@@ -1,5 +1,5 @@
-import type { StoryObj } from "@storybook/react";
-import Row from ".";
+import type { StoryObj } from '@storybook/react';
+import Row from '.';
 declare const meta: {
     title: string;
     component: (props: import(".").RowProps) => JSX.Element;
