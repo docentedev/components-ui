@@ -68,6 +68,7 @@ export { default as useTourGuide } from '../components/tour-guide/context/useTou
 export { default as useWave } from '../hooks/useWave';
 export { default as TourGuideProvider } from '../components/tour-guide/context/TourGuideProvider.js';
 export { default as tokens } from '../tokens/tokens';
+import { RangeDays } from './datepicker-range/components/week/index.utils.js';
 export declare const utils: {
     storageManager: <T = unknown>(storageKey: string) => (dataName: string, initialModel?: T | undefined) => {
         get: () => {
@@ -82,5 +83,12 @@ export declare const utils: {
     determineElementOrientation: (element?: HTMLElement | undefined) => {
         isAbove: boolean;
         isLeft: boolean;
+    };
+    datepickerRange: {
+        getRangeDays: (type: RangeDays, date?: Date | undefined) => {
+            start: Date;
+            end: Date;
+        };
+        rangeDays: typeof RangeDays;
     };
 };

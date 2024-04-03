@@ -1,3 +1,6 @@
+export type RenderFooterProps = {
+    onChangeDate: (range: 'start' | 'end') => (date: Date) => void;
+};
 type DatepickerRangeProps = {
     block?: boolean;
     start?: Date;
@@ -24,6 +27,7 @@ type DatepickerRangeProps = {
     textOnCancel?: string;
     position?: 'left' | 'right';
     onClear?: (start: undefined, end: undefined) => void;
+    renderFooter?: (props: RenderFooterProps) => React.ReactElement;
 };
 declare const DatepickerRange: (props: DatepickerRangeProps) => JSX.Element;
 export default DatepickerRange;

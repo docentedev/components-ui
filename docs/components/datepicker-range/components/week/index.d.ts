@@ -1,3 +1,4 @@
+import { RenderFooterProps } from '../..';
 type WeekProps = {
     startWeekDay: number;
     displayDate: Date;
@@ -20,6 +21,7 @@ type WeekProps = {
     textOnConfirm: string;
     textOnCancel: string;
     onCancel: () => void;
+    renderFooter?: (props: RenderFooterProps) => React.ReactElement;
 };
 declare const Week: React.FC<WeekProps>;
 export default Week;

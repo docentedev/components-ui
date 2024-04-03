@@ -6,6 +6,11 @@ export type Day = {
     datetime: Date;
     inRange: boolean;
 };
+export declare enum RangeDays {
+    lastMonth = "lastMonth",
+    lastWeek = "lastWeek",
+    nextWeek = "nextWeek"
+}
 export declare const isRangeDatesInPreviusMonth: (start: Date, end: Date, displayDate: Date) => boolean;
 export declare const isRangeDatesInNextMonth: (start: Date, end: Date, displayDate: Date) => boolean;
 export declare const isStartEndSameMonth: (start: Date, end: Date) => boolean;
@@ -19,4 +24,8 @@ export declare const generateDays: ({ startWeekDay: startWeekDayProp, displayDat
     daysBeforeMonth: Day[];
     daysInMonth: Day[];
     daysAfterMonth: Day[];
+};
+export declare const getRangeDays: (type: RangeDays, date?: Date) => {
+    start: Date;
+    end: Date;
 };
