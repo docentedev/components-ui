@@ -1,4 +1,5 @@
 import { OptionsOption } from '../options';
+export type Option = OptionsOption;
 export type DropdownProps = {
     label: string;
     value: string;

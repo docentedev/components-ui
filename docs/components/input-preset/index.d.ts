@@ -1,6 +1,6 @@
-import { Option } from '../dropdown';
+import { OptionsOption } from '../options';
 export type InputPresetProps = {
-    options: Option[];
+    options: OptionsOption[];
     value: {
         key: string;
         value: string;
