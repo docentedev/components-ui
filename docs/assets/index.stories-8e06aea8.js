@@ -1,0 +1,6 @@
+import{a as e}from"./jsx-runtime-fd534075.js";import{H as t}from"./index-91d4c449.js";import"./index-0cbcd92a.js";import"./_commonjsHelpers-de833af9.js";import"./index.utils-3332eaf1.js";import"./index-db201866.js";import"./index-ad006f62.js";import"./index-86b246da.js";import"./Easy-dac9347f.js";import"./index-02210d9f.js";import"./index-04131042.js";import"./index-8a756933.js";import"./index-af5faa0b.js";import"./index-5c6928f4.js";import"./index-65ca6685.js";import"./index-be8450de.js";import"./index-d2d58efd.js";import"./index-36b10e2f.js";import"./index-5eea7179.js";import"./index-d70482d4.js";import"./index-f304dd21.js";import"./index-9bf58fc3.js";import"./index-c2412459.js";import"./index-7ea187ef.js";const b={title:"Base/Hint",component:t,tags:["autodocs"],argTypes:{variant:{control:"select",options:["default","success","error","warning"],description:"Variantes del Hint"}},render:a=>e(t,{...a})},r={args:{children:"This is a default hint.",variant:"success"}};var o,i,s;r.parameters={...r.parameters,docs:{...(o=r.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  args: {
+    children: 'This is a default hint.',
+    variant: 'success'
+  }
+}`,...(s=(i=r.parameters)==null?void 0:i.docs)==null?void 0:s.source}}};const k=["Default"];export{r as Default,k as __namedExportsOrder,b as default};

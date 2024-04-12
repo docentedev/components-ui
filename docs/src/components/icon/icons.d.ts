@@ -50,6 +50,7 @@ declare const Icons: {
     Image: () => JSX.Element;
     Large: () => JSX.Element;
     List: () => JSX.Element;
+    Lock: () => JSX.Element;
     Map: () => JSX.Element;
     Medium: () => JSX.Element;
     Megaphone: () => JSX.Element;

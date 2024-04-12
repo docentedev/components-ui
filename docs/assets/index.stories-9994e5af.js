@@ -1,6 +1,0 @@
-import{A as e}from"./index-bd6147c9.js";import"./jsx-runtime-fd534075.js";import"./index-0cbcd92a.js";import"./_commonjsHelpers-de833af9.js";import"./index.utils-3332eaf1.js";import"./index-8d2fa8e5.js";import"./index-082982e0.js";import"./index-86b246da.js";import"./Easy-dac9347f.js";import"./index-02210d9f.js";import"./index-cd9c691f.js";import"./index-8a756933.js";import"./index-af5faa0b.js";import"./index-8828826f.js";import"./index-65ca6685.js";import"./index-be8450de.js";import"./index-6ad23fad.js";import"./index-36b10e2f.js";import"./index-5eea7179.js";import"./index-d70482d4.js";import"./index-4a061051.js";import"./index-e1a77d40.js";import"./index-c2412459.js";import"./index-7ea187ef.js";const j={title:"Components/AlertNoData",component:e,tags:["autodocs"],argTypes:{title:{control:"text",description:"Contenido del botón"},description:{control:"text",description:"Contenido del botón"}}},t={args:{title:"This is the title",description:"This is the content of the alert."}};var o,r,i;t.parameters={...t.parameters,docs:{...(o=t.parameters)==null?void 0:o.docs,source:{originalSource:`{
-  args: {
-    title: 'This is the title',
-    description: 'This is the content of the alert.'
-  }
-}`,...(i=(r=t.parameters)==null?void 0:r.docs)==null?void 0:i.source}}};const k=["Default"];export{t as Default,k as __namedExportsOrder,j as default};
