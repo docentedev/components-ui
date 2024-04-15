@@ -1,5 +1,9 @@
+export type DateRange = {
+    start?: Date;
+    end?: Date;
+};
 export type RenderFooterProps = {
-    onChangeDate: (range: 'start' | 'end') => (date: Date) => void;
+    onChangeDate: ({ start, end }: DateRange) => void;
 };
 type DatepickerRangeProps = {
     block?: boolean;

@@ -1,4 +1,4 @@
-import { RenderFooterProps } from '../..';
+import { DateRange, RenderFooterProps } from '../..';
 type WeekProps = {
     startWeekDay: number;
     displayDate: Date;
@@ -6,7 +6,7 @@ type WeekProps = {
     end: Date;
     daysNames: string[];
     monthsNames: string[];
-    onChangeDate: (range: 'start' | 'end') => (date: Date) => void;
+    onChangeDate: (dates: DateRange) => void;
     maxDate: Date | undefined;
     minDate: Date | undefined;
     setMode: (mode: 'day' | 'month' | 'year') => void;
