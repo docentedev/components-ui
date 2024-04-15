@@ -13,14 +13,6 @@ declare const meta: {
             value: string;
             description: string;
         };
-        size: {
-            options: string[];
-            control: {
-                type: string;
-            };
-            value: string;
-            description: string;
-        };
         children: {
             control: {
                 type: string;
