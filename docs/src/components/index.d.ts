@@ -60,6 +60,7 @@ export { default as TourGuide } from './tour-guide';
 export { default as UploadFile } from './upload-file';
 export { default as UploadFiles } from './upload-files';
 export { default as VerticalTable } from './vertical-table';
+export { default as Collapsible } from './collapsible';
 export { default as useClickOutside } from '../hooks/useClickOutside.js';
 export { default as useDebounce } from '../hooks/useDebounce';
 export { default as useDebounceFn } from '../hooks/useDebounceFn';

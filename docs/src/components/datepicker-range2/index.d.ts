@@ -17,6 +17,7 @@ type DatepickerRange2Props = {
     label?: string;
     onChange: (start?: Date, end?: Date) => void;
     onCancel?: () => void;
+    onClickDay?: (start?: Date, end?: Date) => void;
     textOnConfirm?: string;
     textOnCancel?: string;
     position?: 'left' | 'right';

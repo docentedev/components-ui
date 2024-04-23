@@ -20,6 +20,7 @@ declare const meta: {
         label?: string | undefined;
         onChange: (start?: Date | undefined, end?: Date | undefined) => void;
         onCancel?: (() => void) | undefined;
+        onClickDay?: ((start?: Date | undefined, end?: Date | undefined) => void) | undefined;
         textOnConfirm?: string | undefined;
         textOnCancel?: string | undefined;
         position?: "left" | "right" | undefined;

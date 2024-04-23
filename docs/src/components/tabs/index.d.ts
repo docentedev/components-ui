@@ -9,17 +9,17 @@ type Tab = {
     badge?: string;
     disabled?: boolean;
 };
-/**
- * Props for the `Tabs` component.
- */
 export type TabsProps = {
     tabs: Tab[];
     onChange?: (index: number) => void;
     variant?: 'primary' | 'secondary';
     index?: number;
+    hiddenLine?: boolean;
+    strechItems?: boolean;
+    borderRadius?: number | string;
 };
 /**
  * The `Tabs` component creates a tabbed interface with scrollable tabs.
  */
-declare function Tabs({ tabs, onChange, variant, index }: TabsProps): JSX.Element;
+declare function Tabs({ tabs, onChange, variant, index, strechItems, borderRadius, hiddenLine, }: TabsProps): JSX.Element;
 export default Tabs;
