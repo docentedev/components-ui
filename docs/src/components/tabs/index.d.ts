@@ -21,5 +21,5 @@ export type TabsProps = {
 /**
  * The `Tabs` component creates a tabbed interface with scrollable tabs.
  */
-declare function Tabs({ tabs, onChange, variant, index, strechItems, borderRadius, hiddenLine, }: TabsProps): JSX.Element;
+declare function Tabs({ tabs, onChange, variant, index, strechItems, borderRadius, hiddenLine }: TabsProps): JSX.Element;
 export default Tabs;

@@ -16,5 +16,6 @@ declare const Illustrations: {
     OpenBox: string;
     TimeCapsule: string;
     Truck: string;
+    HappyOpenBox: string;
 };
 export default Illustrations;
