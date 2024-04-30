@@ -9,6 +9,7 @@ export type ChipProps = {
     widthDot?: boolean;
     widthClose?: boolean;
     icon?: React.ReactElement<IconProps>;
+    iconColor?: string;
     onClickClose?: () => void;
     onClick?: (event: React.MouseEvent<HTMLElement>) => void;
     [key: string]: string | boolean | ReactNode | ReactNode[];
