@@ -1,0 +1,6 @@
+import{a}from"./jsx-runtime-fd534075.js";import{r as n}from"./index-0cbcd92a.js";import{s as i}from"./index-a6780084.js";import"./_commonjsHelpers-de833af9.js";import"./index.utils-3332eaf1.js";import"./index-d96b9dfe.js";import"./index-2922d105.js";import"./index-be75c763.js";import"./Easy-dac9347f.js";import"./index-889d04a6.js";import"./index-3afd175f.js";import"./index-ae9d3e9c.js";import"./index-af5faa0b.js";import"./index-b184faa2.js";import"./index-65ca6685.js";import"./index-be8450de.js";import"./index-b44cf4c5.js";import"./index-36b10e2f.js";import"./index-5eea7179.js";import"./index-d70482d4.js";import"./index-e6b5a189.js";import"./index-cce712fb.js";import"./index-c2412459.js";import"./index-181649f6.js";const A={title:"Components/InputSwitch",component:i,tags:["autodocs"],argTypes:{disabled:{control:"boolean",default:!1},size:{control:"select",options:["s","m"]}},render:t=>a(l,{...t})},l=t=>{const[m,p]=n.useState(!1);return a(i,{value:m,onChange:p,disabled:t.disabled,size:t.size})},o={args:{disabled:!1,size:"m"}};var r,e,s;o.parameters={...o.parameters,docs:{...(r=o.parameters)==null?void 0:r.docs,source:{originalSource:`{
+  args: {
+    disabled: false,
+    size: 'm'
+  }
+}`,...(s=(e=o.parameters)==null?void 0:e.docs)==null?void 0:s.source}}};const B=["Default"];export{o as Default,B as __namedExportsOrder,A as default};
