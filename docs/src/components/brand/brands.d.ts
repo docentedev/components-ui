@@ -1,11 +1,18 @@
 declare const brands: {
+    Blaisten: string;
+    Bretas: string;
     Cencosud: string;
+    Disco: string;
     Easy: string;
+    Gbarbosa: string;
     Jumbo: string;
+    Mercantil: string;
     Metro: string;
-    OperationCenter: string;
+    OperationsCenter: string;
     Paris: string;
+    Perini: string;
     Puntos: string;
+    Prezunic: string;
     SantaIsabel: string;
     Spid: string;
     Vea: string;
