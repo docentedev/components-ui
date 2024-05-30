@@ -22,6 +22,7 @@ type DatepickerRange2Props = {
     textOnCancel?: string;
     position?: 'left' | 'right';
     renderFooter?: (props: RenderFooterProps) => React.ReactElement;
+    textError?: string;
 };
 declare const DatepickerRange2: (props: DatepickerRange2Props) => JSX.Element;
 export default DatepickerRange2;

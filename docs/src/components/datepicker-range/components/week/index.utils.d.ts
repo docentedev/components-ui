@@ -1,3 +1,4 @@
+import { DateChangeHandler } from '.';
 export type Day = {
     index: number;
     day: number;
@@ -29,3 +30,4 @@ export declare const getRangeDays: (type: RangeDays, date?: Date) => {
     start: Date;
     end: Date;
 };
+export declare const handleDateChange: (day: Day, month: 'current' | 'prev' | 'next', selected: boolean[], setSelected: (value: [boolean, boolean]) => void, onChangeDate: DateChangeHandler, displayDate: Date, onChangeDisplayDate: (date: Date) => void, start?: Date) => void;

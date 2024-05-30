@@ -1,4 +1,5 @@
 import { DateRange, RenderFooterProps } from '../..';
+export type DateChangeHandler = (dates: DateRange) => void;
 type WeekProps = {
     startWeekDay: number;
     displayDate: Date;
@@ -23,6 +24,8 @@ type WeekProps = {
     onCancel: () => void;
     renderFooter?: (props: RenderFooterProps) => React.ReactElement;
     setDisplayDate: (date: Date) => void;
+    onChangeDisabled: (dates: DateRange) => void;
+    textError?: string;
 };
 declare const Week: React.FC<WeekProps>;
 export default Week;

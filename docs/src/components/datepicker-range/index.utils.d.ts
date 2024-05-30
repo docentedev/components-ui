@@ -5,3 +5,10 @@ export declare const getDateFromString: (value: string) => {
 };
 export declare const getStringToDate: (value: Date) => string;
 export declare const compare2Dates: (date1: Date, date2: Date) => boolean;
+export type DateRange = {
+    start?: Date;
+    end?: Date;
+};
+export declare const handleDateChangeHelper: ({ start, end }: DateRange, setStartDate: (date: string) => void, setEndDate: (date: string) => void, handler: (start: Date, end: Date) => void, getStringToDate: (date: Date) => string, getDateFromString: (date: string) => {
+    date: Date;
+}, startDate: string, endDate: string) => void;
