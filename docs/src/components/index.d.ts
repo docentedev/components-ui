@@ -46,6 +46,7 @@ export { default as Position } from './position';
 export { default as ProgressBar } from './progress-bar';
 export { default as RadioButton } from './radio-button';
 export { default as Row } from './row';
+export { default as Search } from './search';
 export { default as Separator } from './separator';
 export { default as Skeleton } from './skeleton';
 export { default as Stepper } from './stepper';
