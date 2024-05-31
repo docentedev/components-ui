@@ -26,6 +26,7 @@ type WeekProps = {
     setDisplayDate: (date: Date) => void;
     onChangeDisabled: (dates: DateRange) => void;
     textError?: string;
+    onPrevDates?: (dates: DateRange) => void;
 };
 declare const Week: React.FC<WeekProps>;
 export default Week;

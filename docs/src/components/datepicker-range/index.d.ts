@@ -33,6 +33,7 @@ type DatepickerRangeProps = {
     onClear?: (start: undefined, end: undefined) => void;
     onChangeDisabled?: (start: Date, end: Date) => void;
     renderFooter?: (props: RenderFooterProps) => React.ReactElement;
+    onPrevDates?: (dates: DateRange) => void;
     textError?: string;
 };
 declare const DatepickerRange: (props: DatepickerRangeProps) => JSX.Element;

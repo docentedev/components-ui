@@ -1,5 +1,6 @@
 import type { StoryObj } from '@storybook/react';
 import DatepickerRange2 from './index';
+import { DateRange } from '../datepicker-range';
 declare const meta: {
     title: string;
     component: (props: {
@@ -25,6 +26,7 @@ declare const meta: {
         textOnCancel?: string | undefined;
         position?: "left" | "right" | undefined;
         renderFooter?: ((props: import("../datepicker-range").RenderFooterProps) => import("react").ReactElement<any, string | import("react").JSXElementConstructor<any>>) | undefined;
+        handlePrevDates?: ((dates: DateRange) => void) | undefined;
         textError?: string | undefined;
     }) => JSX.Element;
     tags: string[];

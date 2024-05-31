@@ -1,4 +1,4 @@
-import { RenderFooterProps } from '../datepicker-range';
+import { DateRange, RenderFooterProps } from '../datepicker-range';
 type DatepickerRange2Props = {
     start?: Date;
     end?: Date;
@@ -22,6 +22,7 @@ type DatepickerRange2Props = {
     textOnCancel?: string;
     position?: 'left' | 'right';
     renderFooter?: (props: RenderFooterProps) => React.ReactElement;
+    handlePrevDates?: (dates: DateRange) => void;
     textError?: string;
 };
 declare const DatepickerRange2: (props: DatepickerRange2Props) => JSX.Element;
