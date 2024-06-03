@@ -23,6 +23,7 @@ export type DropdownCheckboxProps = {
     selectOnlyFiltered?: boolean;
     hiddenCountAllSelected?: boolean;
     disabledSelectAll?: boolean;
+    size?: 's' | 'm';
 };
-declare const DropdownCheckbox: ({ options, onChange, onClose, textSelectAll, textCountSelected, textCountSelectedOne, label, searchable, variant, hint, disabled, width, name, type, maxSelections, selectOnlyFiltered, hiddenCountAllSelected, disabledSelectAll, }: DropdownCheckboxProps) => JSX.Element;
+declare const DropdownCheckbox: ({ options, onChange, onClose, textSelectAll, textCountSelected, textCountSelectedOne, label, searchable, variant, hint, disabled, width, name, type, maxSelections, selectOnlyFiltered, hiddenCountAllSelected, disabledSelectAll, size, }: DropdownCheckboxProps) => JSX.Element;
 export default DropdownCheckbox;
