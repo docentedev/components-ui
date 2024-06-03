@@ -11,6 +11,7 @@ export type CardProps = {
     block?: boolean;
     width?: string;
     padding?: keyof typeof tokens.spacing;
+    borderRadius?: string | number;
 };
-declare const Card: ({ children, size, variant, block, width, padding }: CardProps) => JSX.Element;
+declare const Card: ({ children, size, variant, block, width, padding, borderRadius }: CardProps) => JSX.Element;
 export default Card;

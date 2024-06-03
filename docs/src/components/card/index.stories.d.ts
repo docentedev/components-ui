@@ -2,7 +2,7 @@ import type { StoryObj } from '@storybook/react';
 import { Card } from '../';
 declare const meta: {
     title: string;
-    component: ({ children, size, variant, block, width, padding }: import(".").CardProps) => JSX.Element;
+    component: ({ children, size, variant, block, width, padding, borderRadius }: import(".").CardProps) => JSX.Element;
     tags: string[];
     argTypes: {
         variant: {
@@ -25,6 +25,13 @@ declare const meta: {
                 type: string;
             };
             options: string[];
+            value: string;
+            description: string;
+        };
+        borderRadius: {
+            control: {
+                type: string;
+            };
             value: string;
             description: string;
         };
