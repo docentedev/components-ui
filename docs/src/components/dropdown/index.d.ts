@@ -1,0 +1,20 @@
+import { OptionsOption } from '../options';
+export type Option = OptionsOption;
+export type DropdownProps = {
+    label: string;
+    value: string | number;
+    onChange: (key: string, name?: string) => void;
+    onClose?: () => void;
+    options: OptionsOption[];
+    direction?: 'top' | 'bottom';
+    variant?: 'default' | 'success' | 'error' | 'warning';
+    size?: 's' | 'm';
+    hint?: string;
+    disabled?: boolean;
+    onOpen?: (value: boolean) => void;
+    name?: string;
+    onInput?: (value: string) => void;
+    loading?: boolean;
+};
+declare const Dropdown: ({ label, options, value: propValue, onChange, onClose, variant, direction, hint, disabled, onOpen, name, onInput, loading, size, }: DropdownProps) => JSX.Element;
+export default Dropdown;
