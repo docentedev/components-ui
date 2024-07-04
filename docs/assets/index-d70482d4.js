@@ -1,1 +1,0 @@
-import{a as t}from"./jsx-runtime-fd534075.js";const a="components-ui__index-module__layout___M1vmN",e={layout:a},_=({children:o})=>t("div",{className:e.layout,children:o});try{layout.displayName="layout",layout.__docgenInfo={description:"",displayName:"layout",props:{}}}catch{}export{_ as L};
