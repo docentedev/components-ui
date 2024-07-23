@@ -4,7 +4,7 @@ import Icons from '../icon/icons';
 export type ButtonVariant = 'primary' | 'secondary' | 'ternary' | 'dashed' | 'toggle' | 'light';
 export type ButtonSize = 's' | 'xs' | 'm' | 'l';
 export type ButtonProps = {
-    onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
+    onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
     children?: React.ReactNode | React.ReactNode[];
     size?: ButtonSize;
     disabled?: boolean;
