@@ -1,5 +1,11 @@
 import useForm from '../../hooks/useForm';
-import { Input, InputEmail, InputPassword, InputSwitch, Dropdown, DropdownCheckbox, Button } from '../';
+import Button from '../button';
+import Dropdown from '../dropdown';
+import DropdownCheckbox from '../dropdown-checkbox';
+import Input from '../input';
+import InputEmail from '../input-email';
+import InputPassword from '../input-password';
+import InputSwitch from '../input-switch';
 export interface FormProps {
     children: React.ReactNode;
     onSubmit: (values: {

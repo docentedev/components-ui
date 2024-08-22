@@ -10,6 +10,7 @@ export type DropdownAsyncProps = {
     textNoResults?: string;
     value?: Option | null;
     name?: string;
+    variant?: 'default' | 'success' | 'error' | 'warning';
 };
 declare const DropdownAsync: (props: DropdownAsyncProps) => JSX.Element | null;
 export default DropdownAsync;

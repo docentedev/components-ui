@@ -15,6 +15,7 @@ export type DropdownProps = {
     name?: string;
     onInput?: (value: string) => void;
     loading?: boolean;
+    searchable?: boolean;
 };
-declare const Dropdown: ({ label, options, value: propValue, onChange, onClose, variant, direction, hint, disabled, onOpen, name, onInput, loading, size, }: DropdownProps) => JSX.Element;
+declare const Dropdown: ({ label, options, value: propValue, onChange, onClose, variant, direction, hint, disabled, onOpen, name, onInput, loading, size, searchable }: DropdownProps) => JSX.Element;
 export default Dropdown;

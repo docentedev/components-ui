@@ -4,7 +4,7 @@ import Icons from '../icon/icons';
 export type InputElement = HTMLInputElement | HTMLTextAreaElement;
 export type InputProps = {
     onFocus?: (e: FocusEvent<InputElement>) => void;
-    onChange: (e: ChangeEvent<InputElement>) => void;
+    onChange?: (e: ChangeEvent<InputElement>) => void;
     onBlur?: (event: FocusEvent<InputElement>) => void;
     label?: string;
     value?: string | number;

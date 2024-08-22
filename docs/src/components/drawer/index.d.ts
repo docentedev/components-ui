@@ -8,6 +8,7 @@ export type Props = {
     header?: React.ReactNode | React.ReactNode[];
     defaultPadding?: boolean;
     fixDrawer?: boolean;
+    portal?: boolean;
 };
-declare const Drawer: ({ children, open, onClose, persistent, header, footer, defaultPadding, fixDrawer, }: Props) => JSX.Element;
+declare const Drawer: ({ children, open, onClose, persistent, header, footer, defaultPadding, fixDrawer, portal, }: Props) => JSX.Element;
 export default Drawer;
